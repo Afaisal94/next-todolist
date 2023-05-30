@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseApiUrl = "http://todo.lazycoding.buzz";
+let baseApiUrl = "https://todo.lazycoding.buzz";
 
 const getTodos = async () => {
   const response = await axios.get(

@@ -44,7 +44,7 @@ export const TodoItem = (props) => {
           borderRadius: "10px",
           marginBottom: "10px",
           backgroundColor: "white",
-          boxShadow: "2px 2px"
+          boxShadow: "2px 2px",
         }}
       >
         <Col md={8} style={{ textAlign: "center" }}>

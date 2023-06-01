@@ -47,10 +47,10 @@ export const TodoItem = (props) => {
           boxShadow: "2px 2px",
         }}
       >
-        <Col md={8} style={{ textAlign: "center" }}>
+        <div className="col-md-8 col-6" style={{ textAlign: "center" }}>
           <p style={{ margin: "auto" }}>{task}</p>
-        </Col>
-        <Col md={4} style={{ textAlign: "center" }}>
+        </div>
+        <div className="col-md-4 col-6" style={{ textAlign: "center" }}>
           <div className="action-group" style={{ margin: "auto" }}>
             {!isCompleted ? (
               <span
@@ -70,7 +70,7 @@ export const TodoItem = (props) => {
               <BsXCircle color="red" style={{ margin: "5px" }} />
             </span>
           </div>
-        </Col>
+        </div>
       </Row>
     </div>
   );
